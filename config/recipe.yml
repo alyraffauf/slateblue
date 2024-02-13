@@ -94,7 +94,7 @@ modules:
     user:
       enabled:
         - syncthing.service
-        - podman.
+        - podman.service
         
   - type: gschema-overrides
     include:
