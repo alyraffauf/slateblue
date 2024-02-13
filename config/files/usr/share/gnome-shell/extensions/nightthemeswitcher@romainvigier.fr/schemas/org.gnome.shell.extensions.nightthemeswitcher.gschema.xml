@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: Night Theme Switcher Contributors
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<schemalist gettext-domain="nightthemeswitcher@romainvigier.fr">
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher" path="/org/gnome/shell/extensions/nightthemeswitcher/">
+		<key name="settings-version" type="i">
+			<default>0</default>
+		</key>
+	</schema>
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher.gtk-variants" path="/org/gnome/shell/extensions/nightthemeswitcher/gtk-variants/">
+		<key name="enabled" type="b">
+			<default>false</default>
+		</key>
+		<key name="day" type="s">
+			<default>"Adwaita"</default>
+		</key>
+		<key name="night" type="s">
+			<default>"Adwaita-dark"</default>
+		</key>
+	</schema>
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher.shell-variants" path="/org/gnome/shell/extensions/nightthemeswitcher/shell-variants/">
+		<key name="enabled" type="b">
+			<default>false</default>
+		</key>
+		<key name="day" type="s">
+			<default>""</default>
+		</key>
+		<key name="night" type="s">
+			<default>""</default>
+		</key>
+	</schema>
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher.icon-variants" path="/org/gnome/shell/extensions/nightthemeswitcher/icon-variants/">
+		<key name="enabled" type="b">
+			<default>false</default>
+		</key>
+		<key name="day" type="s">
+			<default>"Adwaita"</default>
+		</key>
+		<key name="night" type="s">
+			<default>"Adwaita"</default>
+		</key>
+	</schema>
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher.cursor-variants" path="/org/gnome/shell/extensions/nightthemeswitcher/cursor-variants/">
+		<key name="enabled" type="b">
+			<default>false</default>
+		</key>
+		<key name="day" type="s">
+			<default>"Adwaita"</default>
+		</key>
+		<key name="night" type="s">
+			<default>"Adwaita"</default>
+		</key>
+	</schema>
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher.commands" path="/org/gnome/shell/extensions/nightthemeswitcher/commands/">
+		<key name="enabled" type="b">
+			<default>false</default>
+		</key>
+		<key name="sunrise" type="s">
+			<default>""</default>
+		</key>
+		<key name="sunset" type="s">
+			<default>""</default>
+		</key>
+	</schema>
+	<schema id="org.gnome.shell.extensions.nightthemeswitcher.time" path="/org/gnome/shell/extensions/nightthemeswitcher/time/">
+		<key name="nightthemeswitcher-ondemand-keybinding" type="as">
+			<default><![CDATA[['<Shift><Super>t']]]></default>
+		</key>
+		<key name="manual-schedule" type="b">
+			<default>false</default>
+		</key>
+		<key name="sunrise" type="d">
+			<range min="0" max="24"/>
+			<default>6</default>
+		</key>
+		<key name="sunset" type="d">
+			<range min="0" max="24"/>
+			<default>20</default>
+		</key>
+		<key name="location" type="(dd)">
+			<default>(91,181)</default>
+		</key>
+		<key name="offset" type="d">
+			<range min="0" max="24"/>
+			<default>0.4</default>
+		</key>
+	</schema>
+</schemalist>
