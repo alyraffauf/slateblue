@@ -95,5 +95,3 @@ modules:
       enabled:
         - syncthing.service
         - podman.socket
-
-  - type: yafti
