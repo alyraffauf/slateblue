@@ -21,7 +21,7 @@ modules:
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo 
       - https://packages.microsoft.com/yumrepos/vscode/config.repo
-      install:
+    install:
       - code
       - distrobox
       - gnome-shell-extension-appindicator
