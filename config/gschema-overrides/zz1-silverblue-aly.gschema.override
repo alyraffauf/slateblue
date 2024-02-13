@@ -19,3 +19,6 @@ sort-directories-first=true
 customize=true
 override-background-dynamically=true
 unblur-in-overview=true
+
+[org.gnome.system.location]
+enabled=true
