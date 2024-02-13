@@ -18,13 +18,31 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
-      # - micro
-      # - starship
+    repos:
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo 
+      - https://packages.microsoft.com/yumrepos/vscode/config.repo
+      install:
+      - code
+      - distrobox
+      - gnome-shell-extension-appindicator
+      - gnome-shell-extension-gsconnect
+      - gnome-tweaks
+      - inxi
+      - lm_sensors
+      - pipewire-codec-aptx
+      - solaar
+      - steam-devices
+      - syncthing
+      - tailscale
+      - gnome-shell-extension-blur-my-shell
+      - gnome-shell-extension-forge
+      - gnome-shell-extension-caffeine
+
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+      - htop
+      - nvtop
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -34,7 +52,30 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
+        - com.github.marhkb.Pods
+        - com.github.tchx84.Flatseal
+        - com.google.Chrome
+        - com.mattjakeman.ExtensionManager
+        - com.plexamp.Plexamp
+        - org.gnome.baobab
+        - org.gnome.Calculator
+        - org.gnome.Calendar
+        - org.gnome.Characters
+        - org.gnome.clocks
+        - org.gnome.Connections
+        - org.gnome.Contacts
+        - org.gnome.Evince
+        - org.gnome.Geary
+        - org.gnome.Logs
+        - org.gnome.Loupe
+        - org.gnome.NautilusPreviewer
+        - org.gnome.Photos
+        - org.gnome.Snapshot
+        - org.gnome.TextEditor
+        - org.gnome.Weather
         - org.mozilla.firefox
+        - org.videolan.VLC
+        - re.sonny.Junction
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
@@ -44,3 +85,17 @@ modules:
         # - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
+
+  - type: systemd
+    system:
+      enabled: 
+        - tailscaled.service
+    user:
+      enabled:
+        - syncthing.service
+        - podman.socket
+
+  - type: yafti
+    custom-flatpaks:
+        - GNOME Builder: org.gnome.Builder
+        - LibreOffice: org.libreoffice.LibreOffice
