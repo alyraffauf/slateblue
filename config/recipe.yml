@@ -76,6 +76,7 @@ modules:
         - org.mozilla.firefox
         - org.videolan.VLC
         - re.sonny.Junction
+        - org.libreoffice.LibreOffice
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
@@ -96,6 +97,3 @@ modules:
         - podman.socket
 
   - type: yafti
-    custom-flatpaks:
-        - GNOME Builder: org.gnome.Builder
-        - LibreOffice: org.libreoffice.LibreOffice
