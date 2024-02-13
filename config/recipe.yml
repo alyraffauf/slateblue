@@ -94,4 +94,8 @@ modules:
     user:
       enabled:
         - syncthing.service
-        - podman.socket
+        - podman.
+        
+  - type: gschema-overrides
+    include:
+      - zz1-silverblue-aly.gschema.override
