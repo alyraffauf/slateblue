@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: blue-build/template
+  - label: alychace/silverblue-aly
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: blue-build/template
+      - label: silverblue-aly
