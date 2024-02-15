@@ -43,7 +43,6 @@ modules:
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - htop
       - nvtop
-      - gnome-extensions-app
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
