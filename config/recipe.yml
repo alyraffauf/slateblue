@@ -25,19 +25,19 @@ modules:
       - code
       - distrobox
       - gnome-shell-extension-appindicator
+      - gnome-shell-extension-blur-my-shell
+      - gnome-shell-extension-caffeine
+      - gnome-shell-extension-forge
       - gnome-shell-extension-gsconnect
       - gnome-tweaks
       - inxi
       - lm_sensors
       - pipewire-codec-aptx
+      - powertop
       - solaar
       - steam-devices
       - syncthing
       - tailscale
-      - gnome-shell-extension-blur-my-shell
-      - gnome-shell-extension-forge
-      - gnome-shell-extension-caffeine
-      - powertop
 
     remove:
       - firefox # default firefox removed in favor of flatpak
@@ -74,10 +74,10 @@ modules:
         - org.gnome.Snapshot
         - org.gnome.TextEditor
         - org.gnome.Weather
+        - org.libreoffice.LibreOffice
         - org.mozilla.firefox
         - org.videolan.VLC
         - re.sonny.Junction
-        - org.libreoffice.LibreOffice
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
