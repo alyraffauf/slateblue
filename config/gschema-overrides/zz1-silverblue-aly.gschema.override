@@ -32,3 +32,6 @@ enabled = ['org.gnome.Calendar.desktop', 'org.gnome.Weather.desktop', 'org.gnome
 
 [org.gnome.desktop.wm.preferences]
 auto-raise=true
+
+[org.gnome.software]
+packaging-format-preference = ['flatpak:flathub', 'flatpak:fedora-testing', 'flatpak:fedora', 'rpm']
