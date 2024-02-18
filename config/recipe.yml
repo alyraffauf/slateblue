@@ -102,5 +102,3 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-silverblue-aly.gschema.override
-
-  - type: yafti
