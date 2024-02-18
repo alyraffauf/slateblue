@@ -4,6 +4,10 @@ enabled-extensions = ['background-logo@fedorahosted.org', 'appindicatorsupport@r
 
 [org.gnome.desktop.interface]
 clock-format="12h"
+enable-hot-corners=true
+
+[org.gnome.desktop.datetime]
+automatic-timezone=true
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
