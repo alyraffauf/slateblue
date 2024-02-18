@@ -37,6 +37,7 @@ modules:
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-forge
       - gnome-shell-extension-caffeine
+      - powertop
 
     remove:
       - firefox # default firefox removed in favor of flatpak
@@ -91,6 +92,7 @@ modules:
     system:
       enabled: 
         - tailscaled.service
+        - powertop.service
     user:
       enabled:
         - syncthing.service
