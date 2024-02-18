@@ -66,6 +66,7 @@ modules:
         - org.gnome.Connections
         - org.gnome.Contacts
         - org.gnome.Evince
+        - org.gnome.Fractal
         - org.gnome.Geary
         - org.gnome.Logs
         - org.gnome.Loupe
@@ -73,10 +74,10 @@ modules:
         - org.gnome.Photos
         - org.gnome.Snapshot
         - org.gnome.TextEditor
+        - org.gnome.Totem
         - org.gnome.Weather
         - org.libreoffice.LibreOffice
         - org.mozilla.firefox
-        - org.videolan.VLC
         - re.sonny.Junction
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
