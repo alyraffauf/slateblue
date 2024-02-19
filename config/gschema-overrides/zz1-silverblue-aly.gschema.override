@@ -6,6 +6,10 @@ enabled-extensions = ['background-logo@fedorahosted.org', 'appindicatorsupport@r
 clock-format="12h"
 enable-hot-corners=true
 
+[org.gnome.desktop.background] 
+picture-uri='file:///usr/share/backgrounds/Slateblue/Slateblue-l.png'
+picture-uri-dark='file:///usr/share/backgrounds/Slateblue/Slateblue-l.png'
+
 [org.gnome.desktop.datetime]
 automatic-timezone=true
 

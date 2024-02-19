@@ -53,11 +53,12 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - io.podman_desktop.PodmanDesktop
         - com.github.tchx84.Flatseal
         - com.google.Chrome
         - com.mattjakeman.ExtensionManager
         - com.plexamp.Plexamp
+        - io.podman_desktop.PodmanDesktop
+        - md.obsidian.Obsidian
         - org.gnome.baobab
         - org.gnome.Calculator
         - org.gnome.Calendar
