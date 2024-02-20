@@ -28,6 +28,9 @@ customize=true
 override-background-dynamically=true
 unblur-in-overview=true
 
+[org.gnome.shell.extensions.blur-my-shell.overview]
+style-components=3
+
 [org.fedorahosted.background-logo-extension]
 logo-always-visible=true
 
