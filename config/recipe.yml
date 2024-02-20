@@ -24,6 +24,7 @@ modules:
     install:
       - code
       - distrobox
+      - epiphany
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-caffeine
