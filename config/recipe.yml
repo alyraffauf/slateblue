@@ -27,8 +27,6 @@ modules:
       - epiphany
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
-      - gnome-shell-extension-caffeine
-      - gnome-shell-extension-forge
       - gnome-shell-extension-gsconnect
       - gnome-tweaks
       - inxi
