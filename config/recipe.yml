@@ -54,11 +54,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - com.github.tchx84.Flatseal
-        - com.google.Chrome
-        - com.mattjakeman.ExtensionManager
-        - com.plexamp.Plexamp
         - io.podman_desktop.PodmanDesktop
-        - md.obsidian.Obsidian
         - org.gnome.baobab
         - org.gnome.Calculator
         - org.gnome.Calendar
@@ -71,6 +67,7 @@ modules:
         - org.gnome.Geary
         - org.gnome.Logs
         - org.gnome.Loupe
+        - org.gnome.Music
         - org.gnome.NautilusPreviewer
         - org.gnome.Photos
         - org.gnome.Snapshot
@@ -79,7 +76,6 @@ modules:
         - org.gnome.Weather
         - org.libreoffice.LibreOffice
         - org.mozilla.firefox
-        - re.sonny.Junction
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
