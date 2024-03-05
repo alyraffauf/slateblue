@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: alyraffauf/slateblue
+  - label: alyraffauf/fedora-slateblue
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: slateblue
+      - label: fedora-slateblue
