@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: alychace/silverblue-aly
+  - label: alyraffauf/slateblue
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: silverblue-aly
+      - label: slateblue
