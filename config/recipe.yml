@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: silverblue-aly
+name: slateblue
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
