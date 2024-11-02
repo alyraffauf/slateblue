@@ -31,7 +31,6 @@ modules:
       - gnome-tweaks
       - inxi
       - lm_sensors
-      - pipewire-codec-aptx
       - powertop
       - solaar
       - steam-devices
